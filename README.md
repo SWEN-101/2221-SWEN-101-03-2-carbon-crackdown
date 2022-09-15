@@ -11,6 +11,7 @@ We hope to create a website called “Carbon Crackdown” — a website that tra
 - Parker Noffke
 - Marisa Ortiz
 - Ty Platow
+- Ryan Roth
 
 
 ## Prerequisites  <_add anything else that applies_>

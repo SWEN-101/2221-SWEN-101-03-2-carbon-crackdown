@@ -7,7 +7,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Matthew Oley
 - Parker Noffke
 - Marisa Ortiz
-- Ryan Roth
+- Ty Platow
 
 
 ## Prerequisites  <_add anything else that applies_>

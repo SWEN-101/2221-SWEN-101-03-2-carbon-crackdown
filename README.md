@@ -6,7 +6,7 @@ We hope to create a website called “Carbon Crackdown” — a website that tra
 
   
 ## Team 
-<_each team member clones repo and then edits/replace with their name below_>
+
 - Matthew Oley
 - Parker Noffke
 - Marisa Ortiz

@@ -1,0 +1,9 @@
+
+
+.main_background {background-color: #393939;}
+.gra_vert_lgt-whit-lgt-blue {background: linear-gradient(0deg, #6e9be7 0%, #dfe9fb 100%);}
+.gra_vert_drk-whit-drk-blue {background: linear-gradient(0deg, #3568a4 0%, #6388ac 100%);}
+.gra_horz_lgt-whit-drk-blue {background: linear-gradient(90deg, #dfe9fb 0%, #c3d6f6 15%, #90abd8 26%, #6582b2 38%, #39588b 100%);}
+.gra_horz_lgt-blue-drk-blue {background: linear-gradient(90deg, #3d85c6 0%, #2761a8 42%, #113d8a 100%);}
+.gra_radi_drk-blue-lgt-whit {background: radial-gradient(circle, #cfe2f3 0%, #71a5d6 100%);}
+.gra_radi_drk-grey-lgt-grey {background: radial-gradient(circle, #dcdcdc 0%, #929292 100%);}

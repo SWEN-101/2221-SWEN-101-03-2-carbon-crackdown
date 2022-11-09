@@ -9,6 +9,11 @@
 .gra_radi_drk-blue-lgt-whit {background: radial-gradient(circle, #cfe2f3 0%, #71a5d6 100%);}
 .gra_radi_drk-grey-lgt-grey {background: radial-gradient(circle, #dcdcdc 0%, #929292 100%);}
 
+html{
+    background-color: #393939;
+
+
+}
 Body{
     font-family: Arial;
     color: #9CB4C8;

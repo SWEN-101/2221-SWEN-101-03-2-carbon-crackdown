@@ -11,8 +11,7 @@
 
 html{
     background-color: #393939;
-
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 Body{
     font-family: Arial;
@@ -20,11 +19,9 @@ Body{
     margin: 0px;
     font-style: normal;
     font-weight: 300;
-    background-color: #071928;
 }
 h1.logo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    
 
 }
 nav ul {

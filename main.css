@@ -8,6 +8,7 @@
 .gra_radi_drk-blue-lgt-whit {background: radial-gradient(circle, #cfe2f3 0%, #71a5d6 100%);}
 .gra_radi_drk-grey-lgt-grey {background: radial-gradient(circle, #dcdcdc 0%, #929292 100%);}
 
+<<<<<<< HEAD
 html{
     background-color: #393939;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,3 +76,41 @@ nav a:hover {
 .gra_radi_drk-blue-lgt-whit {background: var(--gra_radi_drk-blue-lgt-whit);}
 .gra_radi_drk-grey-lgt-grey {background: var(--gra_radi_drk-grey-lgt-grey);}
 >>>>>>> f4e3c85dabfcce978b38d12a2e786c314d40fcf3
+=======
+.box{
+    width: 70%;
+    height: 100%;
+    border: 1px solid black;
+    align-items: center;
+    background: linear-gradient(0deg, #6e9be7 0%, #dfe9fb 100%);
+    margin: 15%;
+    padding: 0;
+}
+.blackText{
+    font-family: Trebuchet MS;
+    color: #000000;
+    font-size: medium;
+    font-weight: bold;
+}
+input[type=text]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+.boxed {
+    height: 400px;
+    width: 700px;
+    background: linear-gradient(0deg, #6e9be7 0%, #dfe9fb 100%);
+    border-color: grey;
+    border-width: 2px;
+    text-color: black;
+}
+
+.centered {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+>>>>>>> 333ad5db4d41ac05fe8c954e1e872c40bd56435d

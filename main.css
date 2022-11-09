@@ -7,3 +7,25 @@
 .gra_horz_lgt-blue-drk-blue {background: linear-gradient(90deg, #3d85c6 0%, #2761a8 42%, #113d8a 100%);}
 .gra_radi_drk-blue-lgt-whit {background: radial-gradient(circle, #cfe2f3 0%, #71a5d6 100%);}
 .gra_radi_drk-grey-lgt-grey {background: radial-gradient(circle, #dcdcdc 0%, #929292 100%);}
+
+.box{
+width: 70%;
+height: 100%;
+border: 1px solid black;
+align-items: center;
+background: linear-gradient(0deg, #6e9be7 0%, #dfe9fb 100%);
+margin: 15%;
+padding: 0;
+}
+.blackText{
+font-family: Trebuchet MS;
+color: #000000;
+font-size: medium;
+font-weight: bold;
+}
+input[type=text]{
+width: 80%;
+padding: 12px 20px;
+margin: 20px 0;
+box-sizing: border-box;
+}

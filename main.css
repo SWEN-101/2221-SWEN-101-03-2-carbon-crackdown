@@ -93,7 +93,7 @@ input[type=text]{
     background: linear-gradient(0deg, #6e9be7 0%, #dfe9fb 100%);
     border-color: grey;
     border-width: 2px;
-    text-color: black;
+    color: black;
 }
 
 .centered {

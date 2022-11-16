@@ -4,6 +4,13 @@
         <title>Carbon crackdown</title>
         <link rel="stylesheet" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+        <script src="js/vote.js"></script>
+        <style>
+            .vote_backdrop {height: 150px; width: 100%;}
+            .vote_image {background-size:contain; height: 100%; background-repeat: no-repeat;}
+            .vote_gradient {position:relative; top: -150px; width: 100%; text-align: right; height: 150px;}
+            .vote_text {display: inline-block; transform: translate(-100%, -50%); top: 50%; position: absolute; font-size: xx-large; padding-right: 10px; color: #FFFFFF;}
+        </style>
     </head>
 
     <body class="main_background">
@@ -15,11 +22,11 @@
                             <table style="width: 100%;">
                                 <tr>
                                     <td>
-                                        <div style="margin: 20px 20px 20px 0px;">
-                                            <div style="height: 150px; width: 100%; background-color: #0099D2;">
-                                                <div style="background-image:url(assets/weezer-blue-album.jpg); background-size:contain; height: 100%; background-repeat: no-repeat;"></div>
-                                                <div style="position:relative; top: -150px; width: 100%; text-align: right; height: 150px;" class="gra_horz_lgt-whit-drk-blue">
-                                                    <span style="display: inline-block; transform: translate(-100%, -50%); top: 50%; position: absolute; font-size: xx-large; padding-right: 10px;">DONATE TO WEEZER</span>
+                                        <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(0)">
+                                            <div class="vote_backdrop" style="background-color: #FFFFFF;">
+                                                <div style="background-image:url(assets/EDF.png);" class="vote_image"></div>
+                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                    <span class="vote_text">Environmental Defence Fund</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -27,11 +34,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div style="margin: 20px 20px 20px 0px;">
-                                            <div style="height: 150px; width: 100%; background-color: #0099D2;">
-                                                <div style="background-image:url(assets/weezer-blue-album.jpg); background-size:contain; height: 100%; background-repeat: no-repeat;"></div>
-                                                <div style="position:relative; top: -150px; width: 100%; text-align: right; height: 150px;" class="gra_horz_lgt-whit-drk-blue">
-                                                    <span style="display: inline-block; transform: translate(-100%, -50%); top: 50%; position: absolute; font-size: xx-large; padding-right: 10px;">DONATE TO WEEZER</span>
+                                        <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(1)">
+                                            <div class="vote_backdrop" style="background-color: #FFFFFF;">
+                                                <div style="background-image:url(assets/350.org+logo.png);" class="vote_image"></div>
+                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                    <span class="vote_text">350.org</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -39,11 +46,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div style="margin: 20px 20px 20px 0px;">
-                                            <div style="height: 150px; width: 100%; background-color: #0099D2;">
-                                                <div style="background-image:url(assets/weezer-blue-album.jpg); background-size:contain; height: 100%; background-repeat: no-repeat;"></div>
-                                                <div style="position:relative; top: -150px; width: 100%; text-align: right; height: 150px;" class="gra_horz_lgt-whit-drk-blue">
-                                                    <span style="display: inline-block; transform: translate(-100%, -50%); top: 50%; position: absolute; font-size: xx-large; padding-right: 10px;">DONATE TO WEEZER</span>
+                                        <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(2)">
+                                            <div class="vote_backdrop" style="background-color: #FFFFFF;">
+                                                <div style="background-image:url(assets/Friends-of-the-Earth.png);" class="vote_image"></div>
+                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                    <span class="vote_text">Friends of the Eatrh</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -51,11 +58,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div style="margin: 20px 20px 20px 0px;">
-                                            <div style="height: 150px; width: 100%; background-color: #0099D2;">
-                                                <div style="background-image:url(assets/weezer-blue-album.jpg); background-size:contain; height: 100%; background-repeat: no-repeat;"></div>
-                                                <div style="position:relative; top: -150px; width: 100%; text-align: right; height: 150px;" class="gra_horz_lgt-whit-drk-blue">
-                                                    <span style="display: inline-block; transform: translate(-100%, -50%); top: 50%; position: absolute; font-size: xx-large; padding-right: 10px;">DONATE TO WEEZER</span>
+                                        <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(3)">
+                                            <div class="vote_backdrop" style="background-color: #FFFFFF;">
+                                                <div style="background-image:url(assets/NRDC\ logo.png);" class="vote_image"></div>
+                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                    <span class="vote_text">Natural Resources Defense Council</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,11 +79,9 @@
                 </tr>
                 <tr>
                     <td style="width: 30%; height: 20%">
-                        <a>
-                            <div style="width: 80%; height: 40%; left: 10%; position: relative; text-align: center; display: inline-block;" class="gra_radi_drk-grey-lgt-grey">
-                                <span style="display: inline-block; transform: translate(-50%, -50%); top: 50%; position: absolute; font-size: xx-large;">Vote</span>
-                            </div>
-                        </a>
+                        <div style="width: 80%; height: 40%; left: 10%; position: relative; text-align: center; display: inline-block; cursor: pointer;" onclick="javascript:cast()" class="gra_radi_drk-grey-lgt-grey">
+                            <span style="display: inline-block; transform: translate(-50%, -50%); top: 50%; position: absolute; font-size: xx-large;">Vote</span>
+                        </div>
                     </td>
                 </tr>
             </table>

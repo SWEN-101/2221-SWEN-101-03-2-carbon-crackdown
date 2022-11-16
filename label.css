@@ -1,0 +1,17 @@
+html {
+background-color: #393939;
+}
+
+.input {
+    background: radial-gradient(circle, #dcdcdc 0%, #929292 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+input,
+label {
+    margin-left:20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px
+}

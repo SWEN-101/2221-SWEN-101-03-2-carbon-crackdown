@@ -12,6 +12,7 @@ html{
     background-color: #393939;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 Body{
     font-family: Arial;
     color: #9CB4C8;
@@ -20,7 +21,8 @@ Body{
     font-weight: 300;
 }
 h1.logo {
-    font-family: "Audiowide"
+    font-family: "Audiowide";
+    text-align: center;
 
 }
 nav table {

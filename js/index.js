@@ -10,7 +10,6 @@ function zoomin() {
         var value = parseInt(comp.match(/(?<=[\+-] )\d+/)[0])
         var op = comp.match(/[\+-]/)[0]
     }
-    console.log(op, comp, value)
     if (op == "-"){value = 0-value}
     else {value = 0+value}
     var new_val = value + 200
@@ -28,7 +27,6 @@ function zoomout() {
         var value = parseInt(comp.match(/(?<=[\+-] )\d+/)[0])
         var op = comp.match(/[\+-]/)[0]
     }
-    console.log(op, comp, value)
     if (op == "-"){value = 0-value}
     else {value = 0+value}
     var new_val = value - 200

@@ -48,7 +48,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(0)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/EDF.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option0" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">Environmental Defence Fund</span>
                                                 </div>
                                             </div>
@@ -60,7 +60,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(1)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/350.org+logo.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option1" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">350.org</span>
                                                 </div>
                                             </div>
@@ -72,7 +72,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(2)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/Friends-of-the-Earth.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option2" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">Friends of the Eatrh</span>
                                                 </div>
                                             </div>
@@ -84,7 +84,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(3)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/NRDC\ logo.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option3" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">Natural Resources Defense Council</span>
                                                 </div>
                                             </div>
@@ -102,7 +102,7 @@
                 </tr>
                 <tr>
                     <td style="width: 30%; height: 20%">
-                        <div style="width: 80%; height: 40%; left: 10%; position: relative; text-align: center; display: inline-block; cursor: pointer;" onclick="javascript:cast()" class="gra_radi_drk-grey-lgt-grey">
+                        <div id="cast_button" style="width: 80%; height: 40%; left: 10%; position: relative; text-align: center; display: inline-block;" class="gra_radi_drk-grey-lgt-grey" onclick="javascript:option_not_selected()">
                             <span style="display: inline-block; transform: translate(-50%, -50%); top: 50%; position: absolute; font-size: xx-large;">Vote</span>
                         </div>
                     </td>

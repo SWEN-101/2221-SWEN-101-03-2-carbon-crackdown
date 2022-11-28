@@ -9,10 +9,12 @@ Body{
     margin: 0px;
     font-style: normal;
     font-weight: 300;
+    
 }
 h1.logo {
-    font-family: "Audiowide"
-
+    font-family: "Audiowide";
+    color: #9CB4C8;
+    text-align: center;
 }
 nav table {
 	text-align: center;
@@ -67,13 +69,13 @@ nav a:hover {
 .gra_radi_drk-grey-lgt-grey {background: var(--gra_radi_drk-grey-lgt-grey);}
 
 .box{
-    width: 70%;
-    height: 100%;
+    width: 80%;
+    height: 50%;
     border: 1px solid black;
-    align-items: center;
+    align-content: center;
     background: linear-gradient(0deg, #6e9be7 0%, #dfe9fb 100%);
-    margin: 15%;
     padding: 0;
+    margin: 15%
 }
 .blackText{
     font-family: Trebuchet MS;
@@ -81,12 +83,7 @@ nav a:hover {
     font-size: medium;
     font-weight: bold;
 }
-input[type=text]{
-    width: 80%;
-    padding: 12px 20px;
-    margin: 20px 0;
-    box-sizing: border-box;
-}
+
 .boxed {
     height: 400px;
     width: 700px;
@@ -102,4 +99,27 @@ input[type=text]{
     align-items: center;
     justify-content: center;
 }
-
+.input_email {
+    background: radial-gradient(circle, #dcdcdc 0%, #929292 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    border-radius: 5px;
+    height: 15%;
+    width: 70%;
+    margin-bottom: 2%
+}
+.input_special {
+    background: radial-gradient(circle, #dcdcdc 0%, #929292 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    border-radius: 5px;
+    height: 15%;
+    width: 70%;
+    margin-bottom: 2%;
+    margin-top: 1%
+}
+.label_email {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 2%
+}

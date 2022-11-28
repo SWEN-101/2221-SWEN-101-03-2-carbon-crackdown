@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>Carbon crackdown</title>
-        <link rel="stylesheet" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+        <link rel="stylesheet" href="main.css">
+        <link href="navbar_css.css" rel="stylesheet" type="text/css">
         <script src="js/vote.js"></script>
         <style>
             .vote_backdrop {height: 150px; width: 100%;}
@@ -14,6 +15,28 @@
     </head>
 
     <body class="main_background">
+        <header>
+            <h1 class="logo">
+                <p style="text-align: center; color: #EEEEEE;">
+                    Carbon Crackdown
+                    <a href="settings.html"><img src="assets/setting.png" alt="Girl in a jacket" width="50" height="50" style="float: right; transform: translateX(-20px);"></a>
+                </p>
+             </h1>
+            
+            <nav class="nav-bar">
+                <table>
+                    <tr>
+                      <th><a href="index.html">Home</a></th>
+                      <th><a href="create_account.html">Create Account</a></th>
+                      <th><a href="login.html">Login</a></th>
+                      <th><a href="calculator.html">Calculate Your Own Carbon Footprint</a></th>
+                      <th><a href="vote.html">Vote</a></th>
+                      <th><a href="donate.html">Donate</a></th>
+                    </tr>
+                  </table>
+            </nav>
+            &nbsp;
+        </header>
         <div style="width: 80vw; left: 10vw; position: absolute; height: 98vh;">
             <table style="width: 100%; height: 100%">
                 <tr>
@@ -25,7 +48,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(0)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/EDF.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option0" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">Environmental Defence Fund</span>
                                                 </div>
                                             </div>
@@ -37,7 +60,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(1)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/350.org+logo.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option1" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">350.org</span>
                                                 </div>
                                             </div>
@@ -49,7 +72,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(2)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/Friends-of-the-Earth.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option2" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">Friends of the Eatrh</span>
                                                 </div>
                                             </div>
@@ -61,7 +84,7 @@
                                         <div style="margin: 20px 20px 20px 0px; cursor: pointer" onclick="javascript:select(3)">
                                             <div class="vote_backdrop" style="background-color: #FFFFFF;">
                                                 <div style="background-image:url(assets/NRDC\ logo.png);" class="vote_image"></div>
-                                                <div class="gra_horz_lgt-whit-drk-blue vote_gradient">
+                                                <div id="option3" class="gra_horz_lgt-whit-drk-blue vote_gradient">
                                                     <span class="vote_text">Natural Resources Defense Council</span>
                                                 </div>
                                             </div>
@@ -73,13 +96,16 @@
                     </td>
                     <td style="width: 30%; height: 80%">
                         <div style="width: 100%; height: 100%; left: 0px; position: relative; text-align: center; display: inline-block;" class="gra_vert_lgt-whit-lgt-blue">
-                            <span style="display: inline-block; transform: translate(-50%, -50%); top: 50%; position: absolute; font-size: x-large;">Stuff</span>
+                            <span style="display: inline-block; transform: translate(-50%, -50%); top: 50%; position: absolute; font-size: x-large; width: 90%;">
+                                <h2>How it Works</h2>
+                                <p>Every month the website's ad revenue will be donated to a conservation effort of your choosing</p>
+                            </span>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td style="width: 30%; height: 20%">
-                        <div style="width: 80%; height: 40%; left: 10%; position: relative; text-align: center; display: inline-block; cursor: pointer;" onclick="javascript:cast()" class="gra_radi_drk-grey-lgt-grey">
+                        <div id="cast_button" style="width: 80%; height: 40%; left: 10%; position: relative; text-align: center; display: inline-block; cursor: pointer;" class="gra_radi_drk-grey-lgt-grey" onclick="javascript:option_not_selected()">
                             <span style="display: inline-block; transform: translate(-50%, -50%); top: 50%; position: absolute; font-size: xx-large;">Vote</span>
                         </div>
                     </td>

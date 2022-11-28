@@ -56,6 +56,9 @@ nav a:hover {
     --gra_horz_lgt-blue-drk-blue: linear-gradient(90deg, #325a9e00 0%, #325a9e60 55%, #325a9e9f 70%, #325a9ec5 85%, #32599e 100%);
     --gra_radi_drk-blue-lgt-whit: radial-gradient(circle, #cfe2f3 0%, #71a5d6 100%);
     --gra_radi_drk-grey-lgt-grey: radial-gradient(circle, #dcdcdc 0%, #929292 100%);
+
+    --gra_horz_lgt-whit-drk-blue_sel: linear-gradient(90deg, #008d7800 0%, #008d7860 20%, #008d789f 30%, #008d78c5 40%, #008d78 100%);
+    
 }
 
 

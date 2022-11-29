@@ -76,7 +76,8 @@ nav a:hover {
     align-content: center;
     background: linear-gradient(0deg, #6e9be7 0%, #dfe9fb 100%);
     padding: 0;
-    margin: 15%
+    margin-left: 10%;
+    margin-top: 6%;
 }
 
 .blue_center_box{

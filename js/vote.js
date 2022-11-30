@@ -21,9 +21,9 @@ function select(index) {
 }
 
 function cast() {
-    alert("cast vote. yay")
+    alert("Your vote has been cast. Yay!")
 }
 
 function option_not_selected() {
-    alert("no option selected")
+    alert("No option selected!")
 }
